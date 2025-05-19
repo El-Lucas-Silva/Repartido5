@@ -1,17 +1,18 @@
-import java.util.Scanner;
+/*Función que recibe un numero y muestra todos los impares
+hasta llegar al mismo (TERMINADO)
+*/
 
 public class Ejercicio4 {
     public static void main(String[] args) {
-        Scanner read = new Scanner(System.in);
-        System.out.println("Mayor Numero: "+mayorNum(5,8));
+    imparesUntil(8);
     }
 
-    public static int mayorNum(int num1, int num2) {
-        if (num1 > num2) {
-            return num1;
-        } else {
-            return num2;
+    public static void imparesUntil(int num) {
+        System.out.print("Todos los impares entre 0 y "+num+": ");
+        for (int i = 1; i <= num; i += 2) {
+            System.out.print(i + " ");
+        }
     }
 }
-}
+
 

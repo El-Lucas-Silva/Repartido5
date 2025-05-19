@@ -1,8 +1,7 @@
-import java.util.Scanner;
+//Función que recibe 2 numeros y devuelve elmayor de ellos (TERMINADO)
 
 public class Ejercicio3 {
     public static void main(String[] args) {
-        Scanner read = new Scanner(System.in);
         System.out.println("Mayor Numero: "+mayorNum(5,8));
     }
 
